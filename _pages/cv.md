@@ -20,16 +20,16 @@ Mechanical Engineering student with a passion for the intersection between medic
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.8/4.0 | Graduation: May, 2027
 
-- **[High School Name]**  
+- **Staten Island Technical High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [June, 2023]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS, AutoCAD  
 - **Programming:** Python, MATLAB  
 - **Tools:** 3D Printing, Laser Cutting  
 
