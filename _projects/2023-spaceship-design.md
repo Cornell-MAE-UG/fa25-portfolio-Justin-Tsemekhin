@@ -48,6 +48,8 @@ sensitivty in mV/V = 1.18 mV/V based on hand calculations and 1.15 based on FEM 
 ## **Strain Guage Selected** 
 SGD-3/350-LY13
 ![Torque Wrench Dimensions]({{ "/assets/images/sguage.jpg" | relative_url }}){: style="width: 500px;"}
+
+
 [Link to Guage](https://www.dwyeromega.com/en-us/linear-strain-gages/SGD-LINEAR1-AXIS/p/SGD-3-350-LY13)
 
 
