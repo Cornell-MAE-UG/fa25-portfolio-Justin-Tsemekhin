@@ -38,7 +38,7 @@ The value for maximum principle stress from the FEM is significantly higher than
 
 hand calculated (FEM result)
 
-max delfection = 0.272 in (0.38579in)
+max deflection = 0.272 in (0.38579in)
 Max stress = 12.80 ksi(36.549ksi)
 strain @ guage = 1121 microstrain (1149 microstrain)
 
