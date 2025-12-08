@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench
 description: Finite element analysis of torque wrench design
 technologies: [ANSYS, MatLab, AutoDesk Fusion]
-image: /assets/images/Wrench_dims.jpg
+image: /assets/images/ansys.jpg
 ---
 
 This image shows a modified CAD model for a torque wrench with acceptable factors of safety for a 600 lb-in moment. The material used for calculations is Aluminum, 2017, T4 given its high yield strength and relatively low cost (~$1.34/lb). This material is one of the cheapest that meets the design criteria, as calculated by hand, and would allow for lower cost for production. 
@@ -43,8 +43,12 @@ Max stress = 12.80 ksi(36.549ksi)
 strain @ guage = 1121 microstrain (1149 microstrain)
 
 ## **Torque Wrench Sensitivity** 
+sensitivty in mV/V = 1.18 mV/V based on hand calculations and 1.15 based on FEM (half bridge)
 
-
+## **Strain Guage Selected** 
+SGD-3/350-LY13
+![Torque Wrench Dimensions]({{ "/assets/images/sguage.jpg" | relative_url }}){: style="width: 550px;"}
+[Link to Guage](https://www.dwyeromega.com/en-us/linear-strain-gages/SGD-LINEAR1-AXIS/p/SGD-3-350-LY13)
 
 
 
