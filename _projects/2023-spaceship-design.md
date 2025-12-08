@@ -26,8 +26,27 @@ Applied 37.5lb load at 16in away from driven bit to create 600in-lbf torque whic
 
 ## **Normal Strain Contours**
 ![Torque Wrench Dimensions]({{ "/assets/images/strain_contour.jpg" | relative_url }}){: style="width: 550px;"}
+## **Maximum Principle Stress**
+![Torque Wrench Dimensions]({{ "/assets/images/max_ps.jpg" | relative_url }}){: style="width: 550px;"}
 
- 
+The value for maximum principle stress from the FEM is significantly higher than what was calculated by hand. This is likely due to a large stress concentration resulting from a sharp corner at a filet intersection. This should be improved upon in future iterations. 
+
+## **Maximum Normal Stress**
+![Torque Wrench Dimensions]({{ "/assets/images/max_ns.jpg" | relative_url }}){: style="width: 550px;"}
+
+## **Hand Calculated Results** 
+
+hand calculated (FEM result)
+
+max delfection = 0.272 in (0.38579in)
+Max stress = 12.80 ksi(36.549ksi)
+strain @ guage = 1121 microstrain (1149 microstrain)
+
+## **Torque Wrench Sensitivity** 
+
+
+
+
 
 
 
