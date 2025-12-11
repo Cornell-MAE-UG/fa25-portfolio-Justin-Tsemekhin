@@ -8,16 +8,22 @@ image: /assets/images/ansys.jpg
 
 This image shows a modified CAD model for a torque wrench with acceptable factors of safety for a 600 lb-in moment. The material used for calculations is Aluminum, 2017, T4 given its high yield strength and relatively low cost (~$1.34/lb). This material is one of the cheapest that meets the design criteria, as calculated by hand, and would allow for lower cost for production. 
 
-E = 10.7e6 psi
-Yield Strength = 57.9e3 psi
-Poisson's Ratio = 0.365
-Fracture Toughness = 26.2e3 psi*in^1/2
-Fatigue strength @10^6 cycles = 29.15e3 psi
+- E = 10.7e6 psi
+- Yield Strength = 57.9e3 psi
+- Poisson's Ratio = 0.365
+- Fracture Toughness = 26.2e3 psi*in^1/2
+- Fatigue strength @10^6 cycles = 29.15e3 psi
 
 ## **Dimensioned CAD Model**
 ![Torque Wrench Dimensions]({{ "/assets/images/Wrench_dims.jpg" | relative_url }}){: style="width: 550px;"}
 
-This updated model of the a rectangular torque wrench features a 4.5" handle for improved comfort whilst maintaining other basic dimensions. The driver is 3/8", the overall length 16", the width 0.75" (1.1" at the widest part of the handle) and is 0.5" in height. 
+This updated model of the a rectangular torque wrench:
+
+- Overall length: 16in
+- Handle: 4.5 in
+- Width: 0.75 in
+- Height: 0.5 in 
+- Driver: 3/8 in 
 
 ## **Loads and Boundary Conditions**
 ![Torque Wrench Dimensions]({{ "/assets/images/boundary_conditions.jpg" | relative_url }}){: style="width: 550px;"}
@@ -36,14 +42,16 @@ The value for maximum principle stress from the FEM is significantly higher than
 
 ## **Hand Calculated Results** 
 
-hand calculated (FEM result)
+Hand Calculated (FEM result)
 
-max deflection = 0.272 in (0.38579in)
-Max stress = 12.80 ksi(36.549ksi)
-strain @ guage = 1121 microstrain (1149 microstrain)
+- max deflection = 0.272 in (0.38579in)
+- Max stress = 12.80 ksi (36.549ksi)
+- strain @ guage = 1121 microstrain (1149 microstrain)
+
+The large difference between the hand calculations and FEM for maximum stress is due to large stress concentrations at corners near the driver element. In order to minimize stress concentrations, more precise filets would need to be applied. The FEM calculated deflection is higher, as predicted, since some of the deflection is due to sheer. The hand calculations only use beam theory, so its predicted deflection should be lower.
 
 ## **Torque Wrench Sensitivity** 
-sensitivty in mV/V = 1.18 mV/V based on hand calculations and 1.15 based on FEM (half bridge)
+sensitivty (mV/V) = 1.18 mV/V based on hand calculations and 1.21 based on FEM (half bridge)
 
 ## **Strain Guage Selected** 
 SGD-3/350-LY13
