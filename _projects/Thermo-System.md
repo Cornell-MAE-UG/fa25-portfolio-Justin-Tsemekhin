@@ -7,7 +7,7 @@ image: /assets/images/2210_cover.jpg
 ---
 
 
-I decided to analyze the kitchen refrigerator at my house. The image I have included shows the compressor, an integral part of a functioning fridge and a part that has been replaced since the old one broke a few years ago. I began with looking up the exact details of the compressor in order to determine some of its operating conditions. 
+I analyzed the kitchen refrigerator at my house. The image I have included shows the bare compressor, an integral part of a functioning fridge and a part that has been replaced since the old one broke a few years ago. I began with looking up the exact details of the compressor in order to determine its operating conditions. 
 
 ![compressor]({{ "/assets/images/2210_com2.jpg" | relative_url }}){: style="width: 550px;"}
 
