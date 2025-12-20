@@ -1,8 +1,9 @@
 ---
 layout: project
-title: Thermodynamic System Analysis
+title: Thermodynamic Analysis 
 description: Fridge system
-image: /assets/images/2210_compressor.jpg
+technologies: [Thermodynamic Tables]
+image: /assets/images/2210_cover.jpg
 ---
 
 
