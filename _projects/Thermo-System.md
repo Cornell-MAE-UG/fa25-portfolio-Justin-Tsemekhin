@@ -13,7 +13,7 @@ I decided to analyze the kitchen refrigerator at my house. The image I have incl
 
 
 
-## **Compessor: Matsushita DC51C72RBU6**
+## **Compressor: Matsushita DC51C72RBU6**
 - Evaporating Temperature: -23.3C
 - Condensing Temperature: 54.4C
 - Motor Input: 108W
