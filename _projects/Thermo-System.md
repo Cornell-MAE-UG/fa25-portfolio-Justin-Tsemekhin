@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Thermodynamic Analysis 
+title: Thermodynamical Analysis 
 description: Fridge system
 technologies: [Thermodynamic Tables]
 image: /assets/images/2210_cover.jpg

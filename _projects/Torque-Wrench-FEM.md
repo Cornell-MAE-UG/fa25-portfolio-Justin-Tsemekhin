@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Torque Wrench
+title: Torque Wrench FEM
 description: Finite element analysis of torque wrench design
 technologies: [ANSYS, MatLab, AutoDesk Fusion]
 image: /assets/images/ansys.jpg
